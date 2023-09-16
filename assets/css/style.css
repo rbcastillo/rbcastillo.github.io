@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .profile .social-links a {
   font-size: 18px;
-  display: inline-block;
+  display: block;
   background: #212431;
   color: #fff;
   line-height: 1;

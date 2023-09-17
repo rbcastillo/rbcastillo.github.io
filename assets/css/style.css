@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -106,23 +106,8 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-#header .profile .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #212431;
-  color: #fff;
-  line-height: 1;
-  padding: 0 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  transition: 0.3s;
-}
-
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #ffffff;
   color: #fff;
   text-decoration: none;
 }

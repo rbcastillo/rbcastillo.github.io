@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 0;
+  padding: 10% 0 0 0;
 }
 
 .nav-menu * {
@@ -201,6 +201,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active #header {
   left: 0;
+}
+
+@media (max-height: 800px) {
+  .nav-menu {
+    padding: 0 0 0 0;
+  }
 }
 
 /*--------------------------------------------------------------

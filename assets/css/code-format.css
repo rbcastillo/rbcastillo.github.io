@@ -1,0 +1,72 @@
+/* Code format theme */
+
+/* Python formatting */
+pre .python .hljs-keyword {
+  color: #C1742F;
+}
+
+pre .python .hljs-title.function_ {
+  color: #FBC45C;
+}
+
+pre .python .hljs-comment {
+  color: #7F7F75;
+}
+
+pre .python .hljs-variable .hljs-params {
+  color: #7F7F75;
+}
+
+pre .python .hljs-string {
+  color: #5F964A;
+}
+
+pre .python .hljs-number {
+  color: #5F90A6;
+}
+
+pre .python .hljs-built_in {
+  color: #8288B9;
+}
+
+
+
+
+
+.tomorrow-red, pre .hljs-attribute, pre .hljs-tag, pre .hljs-regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+  color: #A9B7C6;
+}
+
+.tomorrow-orange, pre .hljs-preprocessor, pre .hljs-literal, pre .hljs-constant {
+  color: #8288B9;
+}
+
+.tomorrow-yellow, pre .hljs-class, pre .ruby .class .title, pre .css .rules .attribute {
+  color: #f0c674;
+}
+
+.tomorrow-green, pre .hljs-value, pre .hljs-inheritance, pre .hljs-header, pre .ruby .symbol, pre .xml .cdata {
+  color: #5F964A;
+}
+
+.tomorrow-aqua, pre .css .hexcolor {
+  color: #8abeb7;
+}
+
+.tomorrow-blue, pre .hljs-function, pre .python .hljs-decorator, pre .python .hljs-title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
+  color: #81a2be;
+}
+
+
+
+pre code {
+  display: block;
+  background: #2B2B2B !important; 
+  color: #c5c8c6 !important;
+  font-family: "JetBrains Mono";
+  font-size:13px;
+  line-height: 1.2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-weight: 400;
+}

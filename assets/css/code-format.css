@@ -59,6 +59,7 @@ pre .python .hljs-built_in {
 
 
 pre code {
+  border-radius: 20px;
   display: block;
   background: #2B2B2B !important; 
   color: #c5c8c6 !important;

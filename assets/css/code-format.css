@@ -58,7 +58,6 @@ pre .python .hljs-built_in {
 }
 
 
-
 pre code {
   display: block;
   background: #2B2B2B !important; 
@@ -69,4 +68,10 @@ pre code {
   border: 1px solid #ccc;
   padding: 10px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  pre code{
+    font-size:8px;
+  } 
 }

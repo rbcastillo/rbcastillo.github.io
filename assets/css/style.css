@@ -338,28 +338,51 @@ section {
 
 .challenges-links {
   vertical-align: middle;
+  margin-top: -15px
 }
 
 .challenges-link-box{
   margin: 2% 2%;
-  border-radius: 25px;
-  border: 3px solid #02CE55;
-  background: linear-gradient(to bottom right, rgba(2,206,85,1), rgba(2,206,85,0.4), rgba(2,206,85,0));
-  width: max(min(25%, 250px), 150px);
-  height: 75px;
-  line-height: 75px;
+  border: 2px solid #2D3E50;
+  background: rgba(0,0,0,0);
+  width: max(min(25%, 200px), 100px);
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   align-items: center;
   vertical-align: middle;
   display: inline-block;
   padding: 0% 2%;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   color: #2D3E50;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.challenges-link-box:after {
+  content: "";
+  background-color: rgba(2,206,85,.5);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.challenges-link-box:hover:after {
+  top: 0px;
+  left: 0px;
 }
 
 .challenges-link-box p {
-  margin-top: -3px;
+  margin-top: -1px;
   padding: 0px;
   vertical-align: middle;
 }
@@ -377,9 +400,9 @@ section {
 
 @media (max-width: 1499px) {
   .challenges-link-box{
-  font-size: 14px;
-  height: 50px;
-  line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
   }
 }
 
@@ -404,7 +427,8 @@ section {
    font-size:18px;
   }
   .challenges-link-box{
-  font-size: 10px;
+  font-size: 8px;
+  width: max(min(25%, 200px), 125px);
   }
 }
 

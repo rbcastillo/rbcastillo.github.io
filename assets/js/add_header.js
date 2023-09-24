@@ -26,7 +26,7 @@ template.innerHTML = `
                 <li><a href="index.html" class="nav-link scrollto active"><span>Home</span></a></li>
                 <li><a href="index.html#python" class="nav-link scrollto"><span>Python</span></a></li>
                 <li><a href="index.html#sql" class="nav-link scrollto"><span>SQL</span></a></li>
-                <li><a href="index.html#cpp" class="nav-link scrollto"><span>c++</span></a></li>
+                <li><a href="index.html#cpp" class="nav-link scrollto"><span>C++</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
     </div>

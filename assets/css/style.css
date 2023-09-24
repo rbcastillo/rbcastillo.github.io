@@ -338,7 +338,8 @@ section {
 
 .challenges-links {
   vertical-align: middle;
-  margin-top: -15px
+  margin-top: -15px;
+  margin-bottom: 30px;
 }
 
 .challenges-link-box{

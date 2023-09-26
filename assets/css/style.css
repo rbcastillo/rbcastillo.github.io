@@ -412,7 +412,7 @@ section {
     padding-left:5%;
 	padding-right:5%;
   }  
-  .section-title p, li {
+  .section-title p, li{
     font-size: 10px;
   }
   .section-title h2 {
@@ -505,4 +505,130 @@ section {
 
 .challenge-section .content p:last-child {
   margin-bottom: 0;
+}
+
+.challenge-section .columns-table{
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: min(40%, 225px);
+  font-size: 11px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
+  box-sizing: content-box;
+}
+
+.challenge-section .columns-table thead {
+  background: #2D3E50;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.challenge-section .columns-table tr {
+  border-bottom: 0px solid #DDDDDD;
+}
+
+.challenge-section .columns-table tr:last-of-type {
+  border-bottom: 0px solid #2D3E50;
+}
+
+.challenge-section .columns-table th, .columns-table td {
+  padding: 1% 0% 1% 2%;
+  box-sizing: border-box;
+  min-width: 65px;
+}
+
+.challenge-section .table-explanation {
+  float:left; 
+  width:50%;
+  margin-left: min(50px, 5%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.challenge-section .table-explanation p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.challenge-section .examples-table{
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  font-size: 11px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: 20px 1% 20px 1%;
+  display: inline-block;
+}
+
+.challenge-section .examples-table thead {
+  background: #2D3E50;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.challenge-section .examples-table tr {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.challenge-section .examples-table tr:nth-of-type(even){
+  background-color: #F3F3F3;
+}
+
+.challenge-section .examples-table tr:last-of-type {
+  border-bottom: 2px solid #2D3E50;
+}
+
+.challenge-section .table-narrow th, .table-narrow td {
+  padding: 1% 0% 1% 2%;
+  min-width: 75px;
+}
+
+.challenge-section .table-small th, .table-small td {
+  padding: 1% 0% 1% 2%;
+  min-width: 100px;
+}
+
+.challenge-section .table-medium th, .table-medium td {
+  padding: 1% 0% 1% 2%;
+  min-width: 125px;
+}
+
+.challenge-section .table-large th, .table-large td {
+  padding: 1% 0% 1% 2%;
+  min-width: 175px;
+}
+
+@media (max-width: 768px) {
+  .challenge-section .columns-table{
+	font-size: 8px;
+	width: min(40%, 180px);
+  }
+  .challenge-section .examples-table{
+	font-size: 8px;
+  }
+  .challenge-section .table-explanation p {
+    font-size: 8px;
+}
+  .challenge-section .table-narrow th, .table-narrow td {
+    min-width: 50px;
+}
+  .challenge-section .table-small th, .table-small td {
+    min-width: 75px;
+}
+  .challenge-section .table-medium th, .table-medium td {
+    min-width: 90px;
+}
+  .challenge-section .table-large th, .table-large td {
+    min-width: 125px;
+}
 }

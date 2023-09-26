@@ -567,6 +567,7 @@ section {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   margin: 20px 1% 20px 1%;
   display: inline-block;
+  vertical-align: top;
 }
 
 .challenge-section .examples-table thead {
@@ -620,7 +621,7 @@ section {
     font-size: 8px;
 }
   .challenge-section .table-narrow th, .table-narrow td {
-    min-width: 50px;
+    min-width: 40px;
 }
   .challenge-section .table-small th, .table-small td {
     min-width: 75px;

@@ -93,15 +93,24 @@ pre code {
 @media (max-width: 925px) {
   pre code{
     font-size:10px;
+  } 
+  pre .cpp{
+    font-size:9px;
   }
   
 @media (max-width: 768px) {
   pre code{
     font-size:8px;
+  }  
+  pre .cpp{
+    font-size:6.5px;
   }
  
 @media (max-width: 450px) {
   pre code{
     font-size:6px;
-  } 
+  }  
+  pre .cpp{
+    font-size:5.5px;
+  }
 }

@@ -29,6 +29,10 @@ pre .python .hljs-built_in {
   color: #8288B9;
 }
 
+pre .python .hljs-literal {
+  color: #C86D2F;
+}
+
 /* ------------ SQL formatting ------------------------------------------- */
 pre .sql .hljs-keyword {
   color: #0183B8;

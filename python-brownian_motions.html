@@ -171,7 +171,7 @@ class CorrelatedGeometricBrownianMotion:
         self.mu, self.sigma, self.rho = np.log(1 + mu), sigma, rho
         self.s_0 = s_0
 
-    def calculate(self, n_steps: int, n_processes: int) -> Tuple[np.ndarray, np.ndarray]:
+    def calculate(self, n_steps: int, n_processes: int) -> np.ndarray:
         shape = (n_steps, n_processes, len(self.mu))
         _, w_t = WienerProcess(periods=self.periods).calculate(*shape)
         rho_decomposed = np.linalg.cholesky(self.rho)

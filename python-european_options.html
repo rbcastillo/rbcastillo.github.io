@@ -218,10 +218,12 @@ class WienerProcess:
     def __init__(self, periods: int = 252) -> None:
         self.periods = periods
 
-    def calculate(self, n_steps: int, n_processes: int, n_assets: int = 1) -> Tuple[np.ndarray, np.ndarray]:
+    def calculate(self, n_steps: int, n_processes: int, 
+                  n_assets: int = 1) -> Tuple[np.ndarray, np.ndarray]:
         shape = (n_steps, n_processes, n_assets)
         u_t = np.random.normal(loc=0, scale=1 / np.sqrt(self.periods), size=shape)
-        w_t = np.concatenate((np.zeros(shape=(1, n_processes, n_assets)), u_t.cumsum(axis=0)), axis=0)
+        w_t = np.concatenate((np.zeros(shape=(1, n_processes, n_assets)), 
+                              u_t.cumsum(axis=0)), axis=0)
         return u_t, w_t
 
 
@@ -233,7 +235,8 @@ class GeometricBrownianMotion:
         · n_processes: number of independent processes to simulate.
     """
 
-    def __init__(self, mu: float, sigma: float, s_0: float, q: float, periods: int = 252) -> None:
+    def __init__(self, mu: float, sigma: float, s_0: float, q: float, 
+	             periods: int = 252) -> None:
         self.periods = periods
         self.mu, self.sigma = mu, sigma
         self.s_0 = s_0
@@ -247,11 +250,13 @@ class GeometricBrownianMotion:
         return s_t
 
 
-def calc_bs_simulation_european_option_price(option_type: str, s_0: float, k: float, r: float,
-                                             t: float, sigma: float, q: float = 0, periods: int = 252,
+def calc_bs_simulation_european_option_price(option_type: str, s_0: float, k: float, 
+                                             r: float, t: float, sigma: float, 
+                                             q: float = 0, periods: int = 252,
                                              n_processes: int = 100_000) -> float:
 
-    s_t = GeometricBrownianMotion(r, sigma, s_0, q, periods).calculate(int(periods * t), n_processes)
+    s_t = GeometricBrownianMotion(r, sigma, s_0, q, periods).calculate(int(periods * t), 
+                                                                       n_processes)
 
     if option_type == 'call':
         price = np.exp(-r * t) * np.maximum(s_t[-1, :] - k, 0).mean()
@@ -286,8 +291,9 @@ import numpy as np
 from scipy.stats import norm
 
 
-def calc_bs_distribution_european_option_price(option_type: str, s_0: float, k: float, r: float,
-                                               t: float, sigma: float, q: float = 0,
+def calc_bs_distribution_european_option_price(option_type: str, s_0: float, 
+                                               k: float, r: float, t: float, 
+                                               sigma: float, q: float = 0, 
                                                n_processes: int = 500_000) -> float:
 
     prob_space = np.linspace(.000001, .999999, n_processes)

@@ -10,8 +10,8 @@ template.innerHTML = `
             <div class="social-links">
                 
 				<a href="https://www.linkedin.com/in/rubencastillosanchez/" target="_blank"><img src="assets/img/linkedin_logo.png"></a>
+				<a href="https://github.com/rbcastillo/" target="_blank"><img src="assets/img/github_logo.png"></a>
 				<a href="https://www.hackerrank.com/rbcastillo/" target="_blank"><img src="assets/img/hackerrank_logo.png"></a>
-				<a href="https://www.datacamp.com/portfolio/rbcastillosanchez/" target="_blank"><img src="assets/img/datacamp_logo.png"></a>
 				
             </div>
         </div>

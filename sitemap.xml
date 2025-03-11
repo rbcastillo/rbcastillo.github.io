@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://rbcastillo.github.io/</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/python-triangle.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/python-brownian_motions.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/python-european_options.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/python-the-minion-game.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/sql-interviews.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/sql-15-days-of-sql.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/sql-print-prime-numbers.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/cpp-polinomial-coefficients.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rbcastillo.github.io/cpp-least-squares.html</loc>
+  <lastmod>2023-11-12T22:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
